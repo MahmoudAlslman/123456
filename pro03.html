@@ -1,0 +1,183 @@
+<link rel="stylesheet" href="mystyle03.css">
+
+<div class="container"> 
+  <header class="header"><meta charset="utf-8">
+        <link rel="stylesheet" href="mystyle03.css">
+    <h1 id="title" class="text-center"> Cryptocurrency survey </h1>
+    <p id="description" class="description text-center">
+      Thank you for taking the time to help us improve the platform
+    </p>
+  </header>
+          <link rel="stylesheet" href="mystyle03.css">
+
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    
+   
+    <div class="form-group" >
+      <p>How much you heard or read about Cryptocurrency?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />A lot</label>
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Some</label
+      >
+    
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not much</label
+      >
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Just hearing about it now in this surveying</label>
+      
+    </div>
+    
+    <div class="form-group">
+      <p>Do you have Cryptocurrency ?</p>
+      <label>
+        <input
+          name="user-recommend1"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes</label>
+      <label>
+        <input
+          name="user-recommend1"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />No</label>
+      
+    </div>
+
+    <div class="form-group">
+      <p>
+        How much you have Cryptocurrency ?
+      </p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>In american dollar</option>
+        <option value="Less than 100$">Less than 100$</option>
+        <option value="100-500$">100-500$</option>
+        <option value="500-1000$">500-1000$</option>
+        <option value="1000-10000$">1000-10000$</option>
+        <option value="More than 10000$">More than 10000$</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        Which of the following match are reasons of have Cryptocurrency ?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label>
+        <input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />As an growth investment </label>
+      <label>
+        <input
+          name="prefer"
+          value="back-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        />as a store of value</label>
+      <label>
+        <input
+          name="prefer"
+          value="data-visualization"
+          type="checkbox"
+          class="input-checkbox"
+        />To hedge against traditional asset crashes</label>
+      <label>
+        <input
+          name="prefer"
+          value="challenges"
+          type="checkbox"
+          class="input-checkbox"
+        />To avoid government regulation</label>
+      <label>
+        <input
+          name="prefer"
+          value="open-source-community"
+          type="checkbox"
+          class="input-checkbox"
+        />To support development of blockchain technology</label>
+           <label>
+    
+    </div>
+
+    <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+    </div>
+  </form>
